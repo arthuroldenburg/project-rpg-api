@@ -6,7 +6,7 @@ abstract class Race {
     this._dexterity = dexterity;
   }
 
-  abstract maxLifePoints: number;
+  abstract get maxLifePoints(): number;
 
   static createdRacesInstances() {
     throw new Error('Not implemented');
